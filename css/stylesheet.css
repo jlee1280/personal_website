@@ -1,0 +1,10 @@
+body {
+	background-color: lightblue;
+}
+h1 {
+	background-color: lightcyan;
+	color: darkblue;
+	padding: 15px 0;
+	border: 3px solid purple;
+	text-align: center;
+}
