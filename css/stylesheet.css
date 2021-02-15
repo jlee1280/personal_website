@@ -1,5 +1,9 @@
 body {
+	background-color:rgb(186, 228, 178);
+}
+nav {
 	background-color: lightblue;
+	text-align: center;
 }
 h1 {
 	background-color: lightcyan;
