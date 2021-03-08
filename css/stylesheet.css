@@ -1,15 +1,51 @@
 body {
-	background-color:rgb(186, 228, 178);
+	background-color: #edddd0;
 }
-nav {
-	background-color: lightblue;
+
+header{
+	background-color: #a6cad4;
 	text-align: center;
+	top: 0;
+    left: 0;
+    width: 100vw;
 }
-h1 {
-	background-color: lightcyan;
-	color: darkblue;
-	padding: 15px 0;
-	border: 3px solid purple;
+.wrapper {
+	display: grid;
+	grid-template-columns: 500px auto;
+  }
+
+#welcome-title {
+	color: #334259;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
+
+h1 {
+	color: #334259;
+}
+
+.first-p {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.second-p {
+	grid-column: 1;
+	grid-row: 2;
+}
+.my-photo {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+
+footer {
+	background-color: #a6cad4;
+	text-align: center;
+	top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+
+
