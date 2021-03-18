@@ -1,7 +1,6 @@
 body {
 	background-color: #edddd0;
 }
-
 header {
 	background-color: #a6cad4;
 	text-align: center;
@@ -9,47 +8,68 @@ header {
 	left: 0;
 	width: 100vw;
 }
-
+nav {
+	word-spacing: 5px;
+	padding-bottom: 5px;
+}
 .wrapper {
 	display: grid;
 	grid-template-columns: 500px auto;
 }
-
+.article {
+	display: grid;
+	padding-top: 20px;
+}
+.course1 {
+	grid-column: 2;
+	grid-row: 1;
+}
+.course2 {
+	grid-column: 2;
+	grid-row: 1;
+}
+.course3 {
+	grid-column: 2;
+	grid-row: 1;
+}
 #welcome-title {
 	color: #334259;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
-
 .about-me {
 	display: flex;
 	margin: 5px;
 	padding: 10px;
 }
-
 h1 {
 	color: #334259;
 }
-
 .first-p {
 	grid-column: 1;
 	grid-row: 2;
 }
-
 .second-p {
 	grid-column: 1;
-	grid-row: 2;
+	grid-row: 4;
 }
-
 .my-photo {
 	grid-column: 2;
 	grid-row: 2;
 }
-
 footer {
 	background-color: #a6cad4;
 	text-align: center;
-	top: 0;
-	left: 0;
-	width: 100vw;
+}
+hr {
+	width: 100%;
+}
+@media only screen and (max-width: 600px) {
+	nav {
+		white-space: pre-line;
+		line-height: 1.5;
+	}
+	.article {
+		display: block;
+	}
 }
